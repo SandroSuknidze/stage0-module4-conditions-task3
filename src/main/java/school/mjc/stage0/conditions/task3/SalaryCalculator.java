@@ -7,7 +7,7 @@ public class SalaryCalculator {
         } else if (10000 < salary && salary <= 20000) {
             System.out.println((double) salary - salary * 18 / 100);
         } else if (20000 < salary) {
-            System.out.println((double) salary - salary * 28 / 100);
+            System.out.println((double) salary - salary * 20 / 100);
         } else {
             System.out.println("wrong input!");
         }
