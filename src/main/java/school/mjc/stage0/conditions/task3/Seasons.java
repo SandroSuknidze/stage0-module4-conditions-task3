@@ -11,7 +11,7 @@ public class Seasons {
         } else if (9 < month && month <= 11) {
             System.out.println("Autumn");
         } else {
-            System.out.println("Wrong month number");
+            System.out.println("wrong number!");
         }
     }
 }
